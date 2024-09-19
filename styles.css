@@ -1,0 +1,154 @@
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img {
+    width: 120px; /* Tamaño ajustado */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 10%; /* Circular */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 10px; /* Margen alrededor del logo */
+}
+
+body {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el logo y la navegación */
+    padding: 10px 20px;
+    background-color: white;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    
+}
+
+header .logo img {
+    width: 150px;
+}
+
+nav ul {
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    
+}
+
+.banner {
+width: 500px;
+align-self: auto;
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #333;
+    font-weight: bold;
+}
+
+main {
+    padding: 20px;
+}
+
+.welcome h1 {
+    align-content: center;
+    font-size: 30px;
+}
+
+
+
+.tema-destacado {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.tema-destacado .banner img {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 10px;
+}
+
+
+
+.mis-temas, .temas-disponibles {
+    margin-top: 40px;
+}
+
+h2 {
+    margin-bottom: 20px;
+    font-size: 10px;
+}
+h3 {
+    font-weight: normal;
+}
+.articulo {
+    margin-bottom: 20px;
+    margin-right: 20px;
+    font-size: 15px;
+    padding: 30px;
+    font-weight: normal;
+}
+
+.tema-grid {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.tema-item {
+    background-color: white;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    width: calc(33% - 20px);
+    text-align: center;
+}
+
+.tema-item img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 40px;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.1);
+}
+
+p {
+    padding-bottom: 1%;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    font-optical-sizing: auto;
+    text-align: center;
+    text-align-last: center;
+    align-items: center;  
+}
+
+
+/* ESTILOS PROPIOS DE ACI.HTML */
+.subtemas button {
+    background-color: #f0b068;
+    color: rgb(7, 6, 6);
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+    width: 100%; /* Ocupa el 100% del ancho de la página */
+}
+
+.subtemas button:hover {
+    background-color: rgb(218, 156, 42);
+}
