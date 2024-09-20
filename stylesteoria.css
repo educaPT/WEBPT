@@ -1,0 +1,138 @@
+/* Estilos comunes */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img {
+    width: 120px; /* Tamaño ajustado */
+    height: auto; /* Mantiene la proporción */
+    border-radius: 10%; /* Circular */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Sombra suave */
+    margin: 10px; /* Margen alrededor del logo */
+}
+
+body {
+    font-size: 20px;
+    font-family: Arial, sans-serif;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+header {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el logo y la navegación */
+    padding: 10px 20px;
+    background-color: white;
+    
+    
+}
+
+header .logo img {
+    width: 150px;
+}
+
+nav ul {
+    font-size: 20px;
+    list-style-type: none;
+    display: flex;
+    gap: 20px;
+    align-items: justify;
+    
+    
+}
+
+
+a:link, a:visited {
+    color: black; /* O el color que prefieras */
+    text-decoration: none; /* Quita el subrayado, si lo prefieres */
+}
+
+
+/* FIN Estilos comunes */
+
+
+/* ESTILOS CUERPO TEXTO */
+ h2 {
+    font-size: medium;
+    font-weight: normal;
+    text-align: justify;
+    margin-top: 1%;
+    
+}
+ h1 {
+    font-size: larger;
+    font-weight: bold;
+    margin-top: 2%;
+    text-align: justify;
+    
+}
+
+div {
+    padding-left: 2%;
+    padding-right: 6%;
+    justify-content: space-around;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Estilos para la imagen */
+ img {
+    width: 10%; /* Tamaño de la imagen */
+    cursor: pointer; /* Cambia el cursor cuando pasas el ratón por encima */
+    
+}
+
+/* Estilos para el contenedor de dos div */
+.contenedor1{
+    margin-top: 2%;
+    background-color: whitesmoke;
+    display:flex;
+    justify-content: space-between;
+    gap: 5px;
+}
+
+.contenedor1 img {
+width: 40%;
+}
+
+.imagen{
+    margin-top: 5%;
+}
+
+/* Estilos del contenedor flotante (popup) */
+.popup1 {
+    display: none; /* Inicialmente oculto */
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+    z-index: 1000; /* Para asegurarse que esté encima del contenido */
+}
+
+/* Estilos del contenido flotante */
+.popup-content {
+    position: relative;
+    background-color: white;
+    margin: 15% auto; /* Centra el contenido verticalmente */
+    padding: 20px;
+    width: 60%; /* Ancho del contenido */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para el efecto flotante */
+    border-radius: 8px;
+}
+
+/* Botón de cerrar */
+.close {
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+}

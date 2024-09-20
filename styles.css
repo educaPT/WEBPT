@@ -115,11 +115,12 @@ h3 {
     font-weight: normal;
 }
 .articulo {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     margin-right: 20px;
     font-size: 15px;
-    padding: 30px;
+    padding: 10px;
     font-weight: normal;
+    text-align: justify;
 }
 
 .tema-grid {
@@ -140,7 +141,10 @@ h3 {
 .tema-item img {
     width: 250px;
 }
-
+.tema-info {
+    margin-top: 30px;
+    margin-left: 30px;
+}
 footer {
     text-align: center;
     margin-top: 40px;
